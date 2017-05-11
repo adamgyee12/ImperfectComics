@@ -1,4 +1,4 @@
-var max_comics = 10;
+var max_comics = 2;
 var base_url = "https://adamgyee12.github.io/ImperfectComics/";
 var comic_base_url = base_url + "?comic=";
 
