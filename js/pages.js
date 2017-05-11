@@ -1,5 +1,5 @@
 var max_comics = 10;
-var base_url = "http://localhost:8000/";
+var base_url = "https://adamgyee12.github.io/ImperfectComics/";
 var comic_base_url = base_url + "?comic=";
 
 var getUrlParameter = function getUrlParameter(sParam) {
