@@ -1,4 +1,4 @@
-var max_comics = 2;
+var max_comics = 3;
 var base_url = "https://adamgyee12.github.io/ImperfectComics/";
 var comic_base_url = base_url + "?comic=";
 
@@ -53,7 +53,11 @@ document.getElementById("prev").onclick = function () {
 
 document.getElementById("random").onclick = function () {
     comic_id = Math.floor((Math.random() * max_comics) + 1);
-
     location.href = comic_base_url + comic_id;
-
 };
+
+/*
+document.getElementById("header_image").onclick = function () {
+    location.href = comic_base_url + max_comics;
+    //https://adamgyee12.github.io/Portfolio/giotto.html
+};*/
