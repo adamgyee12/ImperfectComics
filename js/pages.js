@@ -1,4 +1,4 @@
-var max_comics = 8; // Can we check this dynamically?
+var max_comics = 9; // Can we check this dynamically?
 var base_url = "https://adamgyee12.github.io/ImperfectComics/";
 var comic_base_url = base_url + "?comic=";
 
